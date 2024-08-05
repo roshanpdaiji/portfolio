@@ -1,0 +1,297 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+nav{
+    background-color:rgb(25, 29, 28);
+    height: 50px;
+    display: flex;
+    justify-content:flex-end;
+    padding: 10px;
+    position: sticky;
+    top:0;
+    z-index: 1;
+
+}
+nav h1{
+    justify-content:left;
+}
+section h4{
+    justify-content: flex-start;
+    color: rgb(228, 238, 218);
+    margin-left: 40px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li a {
+    margin:10px;
+    color: rgb(233, 222, 225);
+    text-decoration: none;
+    font-size: 20px;
+    filter:drop-shadow(3px 4px 20px rgb(28, 23, 62));
+    align-content: flex-end;
+    left: 50%;
+}
+.container ul{
+    text-align: end;
+    padding-left: 150px;
+   
+}
+
+nav ul li a:hover{
+    text-shadow: 2px 4px 6px;
+    text-decoration: underline;
+}
+
+section main{
+    background-color: rgb(99, 88, 84);
+    height: 330px;
+}
+.billgates img{
+    border-radius: 50%;
+    padding-top: 10px;
+    filter:drop-shadow(3px 4px 20px rgb(28, 23, 62));
+}
+.main img:hover{
+    text-shadow: 2px 4px 6px;
+    color: aqua;
+
+}
+.overlay{
+    position: absolute;
+    top:10%;
+    left: 60%;
+}
+
+h1{
+    color: rgb(105, 100, 93);
+}
+
+h1:hover{
+    text-shadow: 2px 4px 6px;
+    color: aqua;
+    cursor: pointer;
+}
+li{
+    text-align:justify;
+    margin-right: 10px;
+    display:flex;
+    align-items: end;
+    cursor: pointer;
+}
+li:hover{
+    text-shadow: 2px 4px 6px;
+    color: rgb(222, 116, 56);
+    point
+
+}
+
+
+span{
+color:red;
+font-size: 30px;
+}
+
+.main{
+border:6px inset rgb(121, 67, 175);
+padding: 5px;
+dispaly:flex;
+position: absolute;
+height:90px;
+left:30%;
+margin-top: 2%;
+box-shadow: 2px 4px 6px black;
+}
+
+.main:hover{
+scale: 1.05;
+}
+
+
+h3{
+    color: rgb(0, 0, 0);
+    background-color:bisque;
+    font-style: italic;
+    text-align: center;
+}
+
+/*Introduction*/
+
+.pic{
+    display: flex;
+
+}
+
+.pic img{
+    width: 200px;
+    height:300px;
+    padding: 10px;
+    filter: drop-shadow(3px 4px 20px rgb(203, 156, 156)););
+}
+
+.pic p{
+    text-align: justify;
+    margin: 10px;
+}
+
+/*Eraly Life*/
+
+.earlylife{
+    display: flex;
+
+}
+
+.earlylife img{
+    width: 350px;
+    height:300px;
+    padding: 10px;
+    filter: drop-shadow(3px 4px 20px rgb(203, 156, 156)););
+}
+
+.earlylife p{
+    text-align: justify;
+    margin: 10px;
+}
+
+
+
+/*Microsoft*/
+
+.microsoft img{
+    width: 500px;
+    height:370px;
+    padding: 10px;
+    border-radius: 30px;
+    filter:drop-shadow(3px 4px 20px rgb(203, 156, 156));
+}
+
+.microsoft p{
+    text-align: justify;
+    margin: 10px;
+    margin-left: 10px;
+}
+.microsoft{
+    display: flex;
+}
+
+
+
+/*Books*/
+
+.gallery{
+   
+    margin: 20px;
+}
+
+.gallery img{
+    box-shadow: 2px 4px 6px rgb(238, 71, 45);
+    width: 200px;
+    height:200px;
+
+    margin: 5px;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+.gallery img:hover{
+    scale: 1.05;
+}
+
+/*Recognition*/
+
+.recognition{
+   
+    margin: 20px;
+}
+
+.recognition img{
+    box-shadow: 2px 4px 6px rgb(238, 71, 45);
+    width: 200px;
+    height:200px;
+
+    margin: 20px;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+.recognition img:hover{
+    scale: 1.05;
+}
+
+/*footer*/
+
+.footer{
+    background-color: burlywood; 
+    padding-left: 50%;
+}
+
+.footer h6{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+/*Scroll Bar*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(50, 174, 212); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(226, 112, 112); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+form{
+    width: 500px;
+    margin-left: 500px;
+}
+
+.input{
+    width: 100%;
+    margin: 10px;
+}
+
+button{
+    color: azure;
+    background-color: black;
+    cursor: pointer;
+    padding: 5px;
+}
